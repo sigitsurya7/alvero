@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Alvero ::</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-900">
+        <nav class="bg-white dark:bg-gray-900">
+            <div class="container flex flex-col items-center p-6 mx-auto">
+                <a href="#" class="mx-auto ">
+                    <img class="w-auto h-6 sm:h-7" src="../dist/img/logo.png" alt="">
+                </a>
+    
+                <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300">
+                    <a href="#" class="mx-2 text-gray-800 border-b-2 border-blue-500 dark:text-gray-200 sm:mx-6">home</a>
+    
+                    <a href="#" class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">features</a>
+    
+                    <a href="#" class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">pricing</a>
+    
+                    <a href="#" class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">blog</a>
+    
+                    <a href="#" class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 11.9554V12.0446C1.01066 14.7301 1.98363 17.1885 3.59196 19.0931C4.05715 19.6439 4.57549 20.1485 5.13908 20.5987C5.70631 21.0519 6.31937 21.4501 6.97019 21.7853C7.90271 22.2656 8.91275 22.6165 9.97659 22.8143C10.5914 22.9286 11.2243 22.9918 11.8705 22.9993C11.9136 22.9998 11.9567 23 11.9999 23C15.6894 23 18.9547 21.1836 20.9502 18.3962C21.3681 17.8125 21.7303 17.1861 22.0291 16.525C22.6528 15.1448 22.9999 13.613 22.9999 12C22.9999 8.73978 21.5816 5.81084 19.3283 3.79653C18.8064 3.32998 18.2397 2.91249 17.6355 2.55132C15.9873 1.56615 14.0597 1 11.9999 1C11.888 1 11.7764 1.00167 11.6653 1.00499C9.99846 1.05479 8.42477 1.47541 7.0239 2.18719C6.07085 2.67144 5.19779 3.29045 4.42982 4.01914C3.7166 4.69587 3.09401 5.4672 2.58216 6.31302C2.22108 6.90969 1.91511 7.54343 1.6713 8.20718C1.24184 9.37631 1.00523 10.6386 1 11.9554ZM20.4812 15.0186C20.8171 14.075 20.9999 13.0588 20.9999 12C20.9999 9.54265 20.0151 7.31533 18.4186 5.6912C17.5975 7.05399 16.5148 8.18424 15.2668 9.0469C15.7351 10.2626 15.9886 11.5603 16.0045 12.8778C16.7692 13.0484 17.5274 13.304 18.2669 13.6488C19.0741 14.0252 19.8141 14.487 20.4812 15.0186ZM15.8413 14.8954C16.3752 15.0321 16.904 15.22 17.4217 15.4614C18.222 15.8346 18.9417 16.3105 19.5723 16.8661C18.0688 19.2008 15.5151 20.7953 12.5788 20.9817C13.5517 20.0585 14.3709 18.9405 14.972 17.6514C15.3909 16.7531 15.678 15.8272 15.8413 14.8954ZM13.9964 12.6219C13.9583 11.7382 13.7898 10.8684 13.5013 10.0408C10.6887 11.2998 7.36584 11.3765 4.35382 9.97197C4.01251 9.81281 3.68319 9.63837 3.36632 9.44983C3.12787 10.2584 2.99991 11.1142 2.99991 12C2.99991 13.9462 3.61763 15.748 4.6677 17.2203C6.83038 14.1875 10.3685 12.4987 13.9964 12.6219ZM6.047 18.7502C7.77258 16.059 10.7714 14.5382 13.8585 14.6191C13.723 15.3586 13.4919 16.093 13.1594 16.8062C12.3777 18.4825 11.1453 19.805 9.67385 20.6965C8.31043 20.3328 7.07441 19.6569 6.047 18.7502ZM11.9999 3C13.7846 3 15.4479 3.51946 16.847 4.41543C16.2113 5.54838 15.3593 6.4961 14.368 7.23057C13.3472 5.57072 11.8752 4.16433 10.027 3.21692C10.6619 3.07492 11.3222 3 11.9999 3ZM8.80619 4.84582C10.4462 5.61056 11.7474 6.80659 12.6379 8.23588C10.3464 9.24654 7.64722 9.30095 5.19906 8.15936C4.83384 7.98905 4.48541 7.79735 4.15458 7.58645C4.91365 6.24006 6.00929 5.10867 7.32734 4.30645C7.82672 4.44058 8.32138 4.61975 8.80619 4.84582Z" fill="currentColor" /></svg>
+                    </a>
+    
+                    <a href="#" class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m.75 19h7.092c4.552 0 6.131-6.037 2.107-8.203 2.701-2.354 1.029-6.797-2.595-6.797h-6.604c-.414 0-.75.336-.75.75v13.5c0 .414.336.75.75.75zm.75-13.5h5.854c3.211 0 3.215 4.768 0 4.768h-5.854zm0 6.268h6.342c3.861 0 3.861 5.732 0 5.732h-6.342z"/><path d="m18.374 7.857c-3.259 0-5.755 2.888-5.635 5.159-.247 3.28 2.397 5.984 5.635 5.984 2.012 0 3.888-1.065 4.895-2.781.503-.857-.791-1.613-1.293-.76-.739 1.259-2.12 2.041-3.602 2.041-2.187 0-3.965-1.668-4.125-3.771 1.443.017 4.136-.188 8.987-.033.016 0 .027-.008.042-.008 2-.09-.189-5.831-4.904-5.831zm-3.928 4.298c1.286-3.789 6.718-3.676 7.89.064-4.064.097-6.496-.066-7.89-.064z"/><path d="m21.308 6.464c.993 0 .992-1.5 0-1.5h-5.87c-.993 0-.992 1.5 0 1.5z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="container flex flex-col px-6 py-4 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+            <div class="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
+                <div class="flex justify-center order-2 mt-6 lg:mt-0 lg:space-y-3 lg:flex-col">
+                    <button class="w-3 h-3 mx-2 bg-blue-500 rounded-full lg:mx-0 focus:outline-none"></button>
+                    <button class="w-3 h-3 mx-2 bg-gray-300 rounded-full lg:mx-0 focus:outline-none hover:bg-blue-500"></button>
+                    <button class="w-3 h-3 mx-2 bg-gray-300 rounded-full lg:mx-0 focus:outline-none hover:bg-blue-500"></button>
+                    <button class="w-3 h-3 mx-2 bg-gray-300 rounded-full lg:mx-0 focus:outline-none hover:bg-blue-500"></button>
+                </div>
+    
+                <div class="max-w-lg lg:mx-12 lg:order-2">
+                    <h1 class="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-4xl">Koala School Assistant</h1>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quia asperiores alias vero magnam recusandae adipisci ad vitae laudantium quod rem voluptatem eos accusantium cumque.</p>
+                    <div class="mt-6">
+                        <a href="#" class="px-6 py-2.5 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">Download from App Store</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex items-center justify-center w-full h-96 lg:w-1/2">
+                <div class="owl-carousel owl-theme">
+                  <div class="item"><img src="../dist/img/raspberry.jpg" alt="Iot"></div>
+                  <div class="item"><img src="../dist/img/iot-pack.jpg" alt="Iot"></div>
+                  <div class="item"><img src="../dist/img/iot.jpg" alt="Iot"></div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Product -->
+    <section class="bg-white dark:bg-gray-900 py-5">
+        <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+            <div class="flex items-center justify-center w-full h-96 lg:w-1/2">
+                <img class="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src="../dist/img/cowomen.jpg" alt="glasses photo">
+            </div>
+
+            <div class="w-full ml-4 lg:w-1/2">
+                <div class="lg:max-w-lg">
+                    <h1 class="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-4xl">
+                        Easiest way to create your website
+                    </h1>
+    
+                    <div class="mt-8 space-y-5">
+                        <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+    
+                            <span class="mx-2">Clean and Simple Layout</span>
+                        </p>
+    
+                        <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+    
+                            <span class="mx-2">Just Copy Paste Codeing</span>
+                        </p>
+    
+                        <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+    
+                            <span class="mx-2">Easy to Use</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Product -->
+
+    <!-- Plus Product -->
+    <section class="bg-white dark:bg-gray-900 py-5">
+        <div class="container px-6 py-10 mx-auto">
+            <div class="lg:flex lg:items-center">
+                <div class="w-full space-y-12 lg:w-1/2 ">
+                    <div>
+                        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br> awesome Components</h1>
+    
+                        <div class="mt-2">
+                            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                        </div>
+                    </div>
+    
+                    <div class="md:flex md:items-start md:-mx-4">
+                        <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                            </svg>
+                        </span>
+    
+                        <div class="mt-4 md:mx-4 md:mt-0">
+                            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h1>
+    
+                            <p class="mt-3 text-gray-500 dark:text-gray-300">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="md:flex md:items-start md:-mx-4">
+                        <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                            </svg>
+                        </span>
+    
+                        <div class="mt-4 md:mx-4 md:mt-0">
+                            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configuration</h1>
+    
+                            <p class="mt-3 text-gray-500 dark:text-gray-300">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="md:flex md:items-start md:-mx-4">
+                        <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                            </svg>
+                        </span>
+    
+                        <div class="mt-4 md:mx-4 md:mt-0">
+                            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+    
+                            <p class="mt-3 text-gray-500 dark:text-gray-300">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+                    <img class="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Plus Product -->
+
+    <!-- Testimonial -->
+    <section class="bg-white dark:bg-gray-900 py-5">
+        <div class="max-w-6xl px-6 py-10 mx-auto">
+            <p class="text-xl font-medium text-blue-500 ">Testimonials</p>
+    
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+                What clients saying
+            </h1>
+    
+            <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
+                <div class="absolute w-full bg-blue-600 -z-10 md:h-96 rounded-2xl"></div>
+                
+                <div class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
+                    <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="client photo" />
+                    
+                    <div class="mt-2 md:mx-6">
+                        <div>
+                            <p class="text-xl font-medium tracking-tight text-white">Ema Watson</p>
+                            <p class="text-blue-200 ">Marketing Manager at Stech</p>
+                        </div>
+    
+                        <p class="mt-4 text-lg leading-relaxed text-white md:text-xl"> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda”.</p>
+                        
+                        <div class="flex items-center justify-between mt-6 md:justify-start">
+                            <button title="left arrow" class="p-2 text-white transition-colors duration-300 border rounded-full rtl:-scale-x-100 hover:bg-blue-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                                </svg>
+                            </button>
+    
+                            <button title="right arrow" class="p-2 text-white transition-colors duration-300 border rounded-full rtl:-scale-x-100 md:mx-6 hover:bg-blue-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <!-- End Testimonial -->
+
+    <!-- CTA -->
+    <section class="bg-gray-100 dark:bg-gray-800 lg:py-12 lg:flex lg:justify-center">
+        <div
+            class="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
+            <div class="lg:w-1/2">
+                <div class="h-64 bg-cover lg:h-full" style="background-image:url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')"></div>
+            </div>
+    
+            <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
+                <h2 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
+                    Build Your New <span class="text-blue-500">Idea</span>
+                </h2>
+    
+                <p class="mt-4 text-gray-500 dark:text-gray-300">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam
+                    mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.
+                </p>
+    
+                <div class="inline-flex w-full mt-6 sm:w-auto">
+                    <a href="#" class="inline-flex items-center justify-center w-full px-6 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                        Start Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End CTA -->
+    
+    <!-- Team -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+            <div class="xl:flex xl:items-center xL:-mx-4">
+                <div class="xl:w-1/2 xl:mx-4">
+                    <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Our Team</h1>
+    
+                    <p class="max-w-2xl mt-4 text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
+                    </p>
+                </div>
+    
+                <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
+                    <div>
+                        <img class="object-cover rounded-xl aspect-square" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="">
+    
+                        <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">John Doe</h1>
+    
+                        <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Full stack developer</p>
+                    </div>
+    
+                    <div>
+                        <img class="object-cover rounded-xl aspect-square" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+    
+                        <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Mia</h1>
+    
+                        <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Graphic Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Team -->
+
+    <!-- Blog -->
+    <section class="bg-white dark:bg-gray-900 py-5">
+        <div class="container px-6 py-10 mx-auto">
+            <div class="text-center">
+                <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
+    
+                <p class="max-w-lg mx-auto mt-4 text-gray-500">
+                    Salami mustard spice tea fridge authentic Chinese food dish salt tasty liquor. Sweet savory foodtruck
+                    pie.
+                </p>
+            </div>
+    
+            <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
+                <div>
+                    <div class="relative">
+                        <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+    
+                        <div class="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+                            <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+    
+                            <div class="mx-4">
+                                <h1 class="text-sm text-gray-700 dark:text-gray-200">Tom Hank</h1>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                        What do you want to know about UI
+                    </h1>
+    
+                    <hr class="w-32 my-6 text-blue-500">
+    
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+                        praesentium, alias nam? Tempore
+                    </p>
+    
+                    <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+                </div>
+    
+                <div>
+                    <div class="relative">
+                        <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+    
+                        <div class="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+                            <img class="object-cover object-center w-10 h-10 rounded-full"src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"alt="">
+    
+                            <div class="mx-4">
+                                <h1 class="text-sm text-gray-700 dark:text-gray-200">arthur melo</h1>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                        All the features you want to know
+                    </h1>
+    
+                    <hr class="w-32 my-6 text-blue-500">
+    
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+                        praesentium, alias nam? Tempore
+                    </p>
+    
+                    <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+                </div>
+    
+                <div>
+                    <div class="relative">
+                        <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
+    
+                        <div class="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+                            <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+    
+                            <div class="mx-4">
+                                <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                        Which services you get from Meraki UI
+                    </h1>
+    
+                    <hr class="w-32 my-6 text-blue-500">
+    
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+                        praesentium, alias nam? Tempore
+                    </p>
+    
+                    <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+    <!-- Maps -->
+    <section class="bg-white dark:bg-gray-900 py-5">
+        <div class="container px-6 py-12 mx-auto">
+            <div>
+                <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+    
+                <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+    
+                <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team would love to hear from you.</p>
+            </div>
+    
+            <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
+                <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                        </span>
+    
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                    </div>
+    
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                        </span>
+                        
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                    </div>
+    
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                            </svg>
+                        </span>
+                        
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                    </div>
+                </div>
+    
+                <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
+                    <iframe width="100%" height="100%" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63463.74557068848!2d107.0622474!3d-6.199685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x62ecff8364fd2c3d%3A0x1fcb6f16910897b4!2sKoala%20Creative%20Indonesia!5e0!3m2!1sen!2sid!4v1680541245927!5m2!1sen!2sid"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Maps -->
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-8 mx-auto">
+            <div class="flex flex-col items-center text-center">
+                <a href="#">
+                    <img class="w-auto h-6 sm:h-7" src="../dist/img/logo.png" alt="Koala Creative Indonesia Logo">
+                </a>
+    
+                <p class="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400">Koala Creative Indonesia</p>
+    
+                <div class="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
+                    <button class="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide text-gray-600 capitalize transition-colors duration-300 transform border rounded-md sm:mx-2 dark:border-gray-400 dark:text-gray-300 sm:mt-0 sm:w-auto hover:bg-gray-50 focus:outline-none focus:ring dark:hover:bg-gray-800 focus:ring-gray-300 focus:ring-opacity-40">
+                        <svg class="w-5 h-5 mx-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C21.9939 17.5203 17.5203 21.9939 12 22ZM4 12.172C4.04732 16.5732 7.64111 20.1095 12.0425 20.086C16.444 20.0622 19.9995 16.4875 19.9995 12.086C19.9995 7.68451 16.444 4.10977 12.0425 4.086C7.64111 4.06246 4.04732 7.59876 4 12V12.172ZM10 16.5V7.5L16 12L10 16.5Z" fill="currentColor"></path>
+                </svg>
+    
+                        <span class="mx-1">View Demo</span>
+                    </button>
+    
+                    <button class="w-full px-5 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md sm:mx-2 sm:order-2 sm:w-auto hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Get started</button>
+                </div>
+            </div>
+    
+            <hr class="my-10 border-gray-200 dark:border-gray-700" />
+    
+            <div class="flex flex-col items-center sm:flex-row sm:justify-between">
+                <p class="text-sm text-gray-500">© Copyright 2021. All Rights Reserved.</p>
+    
+                <div class="flex mt-3 -mx-2 sm:mt-0">
+                    <a href="#" class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"> Teams </a>
+    
+                    <a href="#" class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"> Privacy </a>
+    
+                    <a href="#" class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"> Cookies </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!--JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:0,
+            nav:false,
+            dots:false,
+            autoplay:true,
+            autoplayTimeout:5000,
+            animateOut: 'fadeOut',
+            responsive:{
+              0:{
+                items:1
+              }
+            }
+          })
+        });
+      </script>
+
+</body>
+</html>
